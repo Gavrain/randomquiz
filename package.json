@@ -1,0 +1,20 @@
+{
+	"name": "randomquiz",
+	"version": "1.0.0",
+	"description": "随机生成二十以内加减法",
+	"private": true,
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "webpack"
+	},
+	"repository": {
+		"type": "git",
+		"url": "randomquiz"
+	},
+	"author": "Gavrain",
+	"license": "ISC",
+	"dependencies": {
+		"fs": "https://registry.npm.taobao.org/fs/download/fs-0.0.1-security.tgz",
+		"xlsx": "^0.15.5"
+	}
+}
