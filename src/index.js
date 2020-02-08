@@ -2,7 +2,7 @@
  * @Author: Gavrain
  * @Date: 2020-02-07 19:57:31
  * @LastEditors  : Gavrain
- * @LastEditTime : 2020-02-07 22:01:30
+ * @LastEditTime : 2020-02-08 16:49:23
  * @no item name: \randomquiz\index.js
  */
 let XLSX = require('xlsx')
@@ -24,7 +24,7 @@ function gRow() {
 	while (i < col) {
 		sign = rand() > 0.5 ? '+' : '-'
 		n1 = round(rand() * limit)
-		n2 = round(rand() * (sign == '+' ? 20 - n1 : n1))
+		n2 = round(rand() * (sign == '+' ? limit - n1 : n1))
 		arr.push(`${n1}${sign}${n2}=`)
 		i++
 	}
