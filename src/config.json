@@ -1,5 +1,6 @@
 {
-	"limit": 20,
-	"row": 10,
-	"col": 5
+  "upper": 20,
+  "row": 10,
+  "col": 5,
+  "numberCount": 3
 }
