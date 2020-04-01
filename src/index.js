@@ -31,6 +31,8 @@ function getRandomQuiz(config) {
       }
       formula.push(num < 0 ? num : `+${num}`)
     }
+
+    formula.push('=')
     return formula.join('')
   }
 

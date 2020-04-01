@@ -8,10 +8,11 @@
 const path = require('path')
 
 module.exports = {
-	entry: './src/index.js',
-	output: {
-		filename: 'quiz.js',
-		path: path.resolve(__dirname, 'dist'),
-	},
-	target: 'node',
+  mode: 'development',
+  entry: './src/index.js',
+  output: {
+    filename: 'quiz.js',
+    path: path.resolve(__dirname, 'dist')
+  },
+  target: 'node'
 }
